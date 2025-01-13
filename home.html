@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="jpg" href="cap.jpg">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+VA+Guides&family=Playwrite+NL+Guides&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!---logo-->
+
+          <a class="navbar-brand text-danger me-auto" href="home.html">Vido</a>
+          <div class="offcanvas offcanvas-end" tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title"
+                id="offcanvasNavbarLabel">Vido</h5>
+              <button type="button" class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+              <ul
+                class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active mx-lg-3"
+                    aria-current="page"
+                    href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link mx-lg-3"
+                    href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3"
+                    href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3"
+                    href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3"
+                    href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3"
+                    href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--toggler and login button-->
+          <a href="login.html" target="_parent" class="login-btn"
+            id="loginBtn">Login</a>
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!---content section-->
+      <div class="main">
+        <div class="content">
+          <h1>We have something special for everyone.<i class="bi bi-emoji-grin"
+              id="emoji"></i></h1>
+
+          <p class="par">Explore our curated collections, designed to
+            make you feel confident, comfortable, and effortlessly
+            stylish.</p>
+
+          <div class="button">
+            <button id="shopnowBtn" class="shop-btn"><a
+                href="#">Shop Now</a></button>
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <!------Discover more section-->
+    <section class="more">
+      <div class="title">
+        <h1>Discover more Good Things.</h1>
+        <div class="line"></div>
+        <!----card-1-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="t-shirt.jpg" class="card-img-top" alt="T-shirts">
+              <div class="card-body">
+                <h5 class="card-title">Explore Our T-Shirt Collection – Style
+                  Meets Comfort!</h5>
+                <p class="card-text">Discover the perfect blend of style,
+                  comfort, and quality with our exclusive t-shirt collection.
+                  From bold graphics to minimalist designs.</p>
+              </div>
+              <div class="button">
+                <button id="exploreBtn" class="shop-btn"><a href="#">Explore
+                    Now</a></button>
+              </div>
+            </div>
+          </div>
+          <!----card-2-->
+          <div class="col">
+            <div class="card">
+              <img src="gentleman set.jpg" class="card-img-top"
+                alt="Gentleman set">
+              <div class="card-body">
+                <h5 class="card-title">The Ultimate Gentleman Set – Elevate Your
+                  Style</h5>
+                <p class="card-text">Step into sophistication with our exclusive
+                  Gentleman Set. This curated collection includes everything you
+                  need for a refined look.</p>
+              </div>
+              <div class="button">
+                <button id="exploreBtn" class="shop-btn"><a href="#">Explore
+                    Now</a></button>
+              </div>
+
+            </div>
+          </div>
+          <!----card-3-->
+          <div class="col">
+            <div class="card">
+              <img src="sneaker.jpg" class="card-img-top" alt="Sneaker">
+              <div class="card-body">
+                <h5 class="card-title">Step Up Your Game – Discover Our Premium
+                  Sneakers</h5>
+                <p class="card-text">Upgrade your footwear with our stylish and
+                  comfortable sneakers, designed to keep you moving in style.
+                </p>
+              </div>
+              <div class="button">
+                <button id="exploreBtn" class="shop-btn"><a href="#">Explore
+                    Now</a></button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------top selling section-->
+      <section class="top-selling">
+        <h1 class="title">New arrivals. Best selling of the month </h1>
+        <div class="line"></div>
+
+        <div class="container-c">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <!----card-1-->
+            <div class="col">
+              <div class="card ">
+                <img src="cap.jpg" class="card-img-top" alt="Cap">
+                <div class="card-body">
+                  <p class="new">New design 2024</p>
+                  <p class="card-text">
+                    <button type="button" id="priceBtn"
+                      class="price-btn">$52.00</button>
+                      <div class="stars">
+                        <img src="stars.png" class="stars"></p>
+                      </div>
+                </div>
+                
+              </div>
+            </div>
+            <!----card-2-->
+            <div class="col">
+              <div class="card">
+                <img src="dress.jpg" class="card-img-top" alt="Dress">
+                <div class="card-body">
+
+                  <p class="new">New design 2024</p>
+                  <p class="card-text">
+                    <button type="button" id="priceBtn"
+                      class="price-btn">$52.00</button>
+                      <div class="stars">
+                        <img src="stars.png" class="stars"></p>
+                      </div>
+                     
+                  </div>
+                </div>
+              </div>
+              <!----card-3-->
+              <div class="col">
+                <div class="card">
+                  <img src="suit.jpg" class="card-img-top" alt="Suit">
+                  <div class="card-body">
+                    <p class="new">New design 2024</p>
+                    <p class="card-text">
+                      <button type="button" id="priceBtn"
+                        class="price-btn">$52.00</button>
+                        <div class="stars">
+                          <img src="stars.png" class="stars"></p>
+                        </div>
+                       
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </section>
+          <!------for kids section-->
+          <section class="kids">
+            <div class="content-kids">
+              <h1>Special offer in kids products</h1>
+              <p class="para">Fashion is more than just clothing; it's a form of
+                self-expression, creativity, and identity. </p>
+              <div class="button">
+                <button id="kidsBtn" class="shop-btn"><a href="#">Discover
+                    More</a></button>
+              </div>
+            </div>
+          </section>
+          <section class="footer">
+            <div class="card-1 text-center">
+              <div class="card-1-header">
+                Join Us Today.
+              </div>
+              <input class="contact-input" id="contactInput" type="text"
+                placeholder="Email">
+              <button id="contactBtn" class="contact-btn"><a
+                  href="#">Submit</a></button>
+              <!----footer1------>
+              <div class="card1-body">
+                <div class="card-2" style="width: 18rem;">
+                  <div class="card1-header ">
+                    Geting Started
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0">Release Notes</li>
+                    <li class="list-group-item border-0">Upgrade Guide</li>
+                    <li class="list-group-item border-0">Browser Support</li>
+                  </ul>
+                </div>
+                <!----footer2----->
+                <div class="card-2" style="width: 18rem;">
+                  <div class="card1-header">
+                    Explore
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0">Prototyping</li>
+                    <li class="list-group-item border-0">Design systems</li>
+                    <li class="list-group-item border-0">Pricing</li>
+                  </ul>
+                </div>
+                <!----footer3------>
+                <div class="card-2" style="width: 18rem;">
+                  <div class="card1-header">
+                    Reources
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0">Best practices</li>
+                    <li class="list-group-item border-0">Support</li>
+                    <li class="list-group-item border-0">Developers</li>
+                  </ul>
+                </div>
+                <!----footer4------>
+                <div class="card-2" style="width: 18rem;">
+                  <div class="card1-header">
+                    Community
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-0">Discussion Forums</li>
+                    <li class="list-group-item border-0">Code of Conduct</li>
+                    <li class="list-group-item border-0">Contributing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="social-media">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-google"></i>
+              </div>
+              <div class="card-footer text-body">
+                <p class="copyright">&copy; 2024 Vido. All rights reserved.</p>
+
+              </div>
+            </div>
+          </section>
+          <script src="index.js" ></script>
+          <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+          
+        </body>
+      </html>

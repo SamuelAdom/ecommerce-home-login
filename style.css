@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.navbar {
+    background: white;
+    height: 70px;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    color: red;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+.login-btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 15px;
+    background: #0B032D;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-style: italic;
+}
+
+.login-btn:hover {
+    background: crimson;
+    color: white;
+}
+
+.nav-link {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    color: #0B032D;
+    font-size: 18px;
+}
+
+.offcanvas {
+    background: white;
+   
+}
+
+
+
+.offcanvas-title {
+    font-size: 2.5rem;
+    color: crimson;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: italic;
+
+}
+.offcanvas-body .nav-link{
+    color: #0B032D;
+}
+.offcanvas-body .nav-link.active{
+    color: #0B032D;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    border: none;
+    box-shadow: none;
+}
+
+
+.content {
+    margin: 20%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.content h1 {
+    font-size: 7vmin;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.par {
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: white;
+    box-shadow: 2px 4px 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-style: italic;
+}
+
+.shop-btn {
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #0B032D;
+    transition: 0.7s ease-in;
+}
+
+.shop-btn:hover {
+    background: crimson;
+}
+
+.new {
+    color: #0B032D;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+
+
+.card-body {
+    color: #0B032D;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    letter-spacing: 1.5px;
+  
+
+
+}
+
+.card-text {
+    color: #0B032D;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+
+}
+
+.card {
+    border-radius: 20px;
+    margin: 15px;
+
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: auto;
+    border-radius: 20px;
+}
+
+#exploreBtn {
+    margin: 20px auto;
+}
+
+
+.title {
+
+    color: #0B032D;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    margin: 10px auto;
+    background: crimson
+}
+
+.navbar-brand {
+    transition: width 2s, height 2s, transform 4s;
+}
+
+.navbar-brand:hover {
+    transform: rotate(360deg);
+}
+
+.navbar-brand {
+    color: red;
+    animation-name: changes-bk;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes changes-bk {
+    from {
+        color: #102B3F;
+    }
+
+    to {
+        color: #0B4F6C;
+    }
+
+}
+
+.container-c {
+    display: flex;
+}
+
+.price-btn {
+
+    padding: 10px 15px;
+    border: 1px solid #0B032D;
+    background: transparent;
+    color: black;
+    border-radius: 10px;
+    transition: 0.7s ease-in;
+
+}
+
+.price-btn:hover {
+    background: crimson;
+    color: white;
+}
+
+.stars {
+    margin-bottom: 40%;
+    cursor: pointer;
+   margin-left: 40%;
+   
+}
+
+
+.card-body {
+    height: 200px;
+
+}
+
+
+
+.kids {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('kid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+
+.content-kids {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-kids h1 {
+    font-size: 10vmin;
+    margin-top: 15%;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.para {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 200;
+    font-style: italic;
+}
+
+.footer {
+    background: black;
+    
+
+}
+.card-footer{
+    background: black;
+    height: 50px;
+}
+
+.card-1 {
+    background: black;
+    color: white;
+}
+
+.card-1-header {
+    font-size: 6vmin;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contact-input {
+    padding: 5px;
+    width: 30%;
+    margin: -9px;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+    background: transparent;
+    color: white;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: white;
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-style: italic;
+}
+
+.contact-btn {
+    padding: 8px;
+    border: none;
+    width: 7%;
+    background: #0B032D;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+
+}
+
+.contact-btn:hover {
+    background:crimson;
+}
+
+.card1-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-2 {
+    background: black;
+}
+
+.list-group-item {
+    background: black;
+    font-size: 2vmin;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    transition: 0.5s ease;
+}
+
+.list-group-item:hover {
+    color: crimson;
+}
+
+.card-header {
+    font-size: 3vmin;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card1-header{
+    font-size: 3vmin;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.card-header:hover {
+    color: crimson;
+}
+.card1-header:hover {
+    color: crimson;
+}
+
+.bi {
+    margin: 25px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.bi-facebook:hover {
+    color: rgb(19, 19, 168);
+
+}
+
+.bi-instagram:hover {
+    color: crimson;
+}
+
+.bi-twitter-x:hover {
+    color: #0B032D;
+}
+
+.bi-google:hover {
+    color: rgb(19, 19, 168);
+
+}
+
+.copyright {
+    font-size: 3vmin;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+/******LOGINPAGE*/
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-heading h1{
+    text-align: center;
+    color: white;
+    font-family: 'Popins';
+    font-weight: bold;
+    font-size: 8vmin;
+}
+.content-heading p{
+    text-align: center;
+    color: white;
+    font-family: 'Popins';
+    font-size: 18px;
+}
+#hub{
+    color: #007bff;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+
+
+}
+
+.input-group {
+    flex-direction: column;
+    position: relative;
+
+
+
+}
+
+.input-group input {
+    border: 1px solid #0B032D;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    background: transparent;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+   
+   
+
+}
+
+.input-group input::placeholder{
+    font-size: 15px;
+    color: white;
+    font-family:'Popins';
+}
+
+
+
+
+
+#body-2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('login-background.jpg');
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+    position: relative;
+  }
+ 
+  .coolinput label {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background:white;
+    width: fit-content;
+  }
+  
+  .coolinput input.input {
+    padding: 11px 10px;
+    font-size: 1rem;
+    border: 2px #007bff solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+  }
+  label{
+    color: white;
+    font-family: 'Popins';
+    font-style: italic;
+  }
+  .coolinput input.input:focus {
+    outline: none;
+  }
+  .loginbox{
+   background: transparent;
+
+  }
+  .forget-rem{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+  }
+  a, .forget-rem{
+    text-decoration: none;
+    color: white;
+    font-family: 'Popins';
+    font-style: italic;
+  }
+ .loginButton{
+    text-align: center;
+    margin-top: 10%;
+ }
+ .btn{
+    border: none;
+    width: 100px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #007bff;
+    cursor: pointer;
+    outline: none;
+    transition: 0.7s ease;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+   
+ }
+ .btn:hover{
+    transition: 0.8s ease;
+    background-color: #0B4F6C
+ }
+ .social-icons,.bi{
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+    color: white;
+    transition: 0.5s ease-in-out;
+ }
+ .bi:hover{
+    color: #818CF8;
+    transition: 0.5s ease-in-out;
+ }
+ .bi-person, .bi-eye, .bi-eye-slash{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 12%;
+    cursor: pointer;
+    color: #007bff;
+ }
+
+
+.navbar-brand2{
+    font-size: 2.5rem;
+ color: #0B032D;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+.navbar-brand2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-style: italic;
+    padding: 2%;
+}
+
+.navbar-brand2, #hub{
+    color: #0B4F6C;
+    animation-name: changes-bk;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changes-bk {
+    from {
+        color: #007bff;
+    }
+
+    to {
+        color: #0B4F6C;
+    }
+
+}
+
+
+/*media query*/
+@media(min-width:991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        transform: translateX(-50%);
+        bottom: 0;
+        left: 50%;
+        background-color: crimson;
+        transition: 0.5s ease;
+        visibility: hidden;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@media(max-width:480px) {
+    header {
+        background-image: url(login1.jpg);
+        
+    }
+    .navbar-brand {
+        color: crimson;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .bi-emoji-grin{
+       display: none;
+    }
+
+    .content h1 {
+        
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+    
+.par {
+    color: white;
+    text-align: center;
+    box-shadow: none;
+    font-style: italic;
+    font-size: 14px;
+    
+}
+.shop-btn{
+    margin-bottom: 80%;
+}
+.line{
+    background: black;
+}
+.title{
+    font-size: 20px;
+}
+.content-kids h1{
+    margin-top: 20%;
+}
+.para{
+    margin-top: 10%;
+}
+.contact-input{
+    width: 50%;
+    margin: 2px;
+}
+.contact-btn{
+    width: 50%;
+    background:transparent;
+}
+.list-group-item{
+    font-size: 8px;
+    
+}
+.card1-header{
+    font-size: 11px;
+}
+.copyright{
+    font-size: 18px;
+    color: white;
+}
+.input-group input{
+    width: 90%;
+    margin: 30px;
+
+}
+
+
+
+
+}
+@media(max-width:768px){
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .content h1{
+        text-align: center;
+    }
+   .par{
+    box-shadow: none;
+   }
+   .card-text{
+    font-size: 12px;
+
+   } 
+   .card-title{
+    font-size: 14px;
+   }
+   .contact-btn{
+    width: 9%;
+    margin: 3px;
+    
+}
+.list-group-item{
+    font-size: 12px;
+}
+.copyright{
+    color: white;
+    font-size: 18px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-right: 30%;
+
+
+    
+}
+
+}
+
