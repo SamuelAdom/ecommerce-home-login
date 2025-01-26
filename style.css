@@ -14,7 +14,7 @@ header {
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)
       ), 
-      url('hero.jpg');
+      url('images/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -41,7 +41,7 @@ header {
     text-decoration: none;
     margin: 15px;
     border-radius: 15px;
-    background: #0B032D;
+    background: crimson;
     color: white;
     font-size: 15px;
     transition: 0.5s ease-in-out;
@@ -51,7 +51,7 @@ header {
 }
 
 .login-btn:hover {
-    background: crimson;
+    background: #0B032D;
     color: white;
 }
 
@@ -144,14 +144,14 @@ header {
 
 .shop-btn {
     border: none;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #0B032D;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: crimson;
     transition: 0.7s ease-in;
 }
 
 .shop-btn:hover {
-    background: crimson;
+    background: #0B032D;
 }
 
 .new {
@@ -283,7 +283,7 @@ header {
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)
       ), 
-      url('kid.jpg');
+      url('images/kid.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -544,7 +544,7 @@ header {
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)
       ), 
-      url('login-background.jpg');
+      url('images/login-background.jpg');
     
     background-position: center;
     background-size: cover;
@@ -715,7 +715,11 @@ header {
 
 @media(max-width:480px) {
     header {
-        background-image: url(login1.jpg);
+       background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('images/login1.jpg');
         
     }
     .navbar-brand {
@@ -737,7 +741,7 @@ header {
         font-size: 2rem;
         font-weight: bold;
         color: white;
-        font-family: "Poppins", sans-serif;
+        font-family: "Poppins";
         font-weight: 200;
         font-style: normal;
     }
@@ -747,14 +751,19 @@ header {
     text-align: center;
     box-shadow: none;
     font-style: italic;
-    font-size: 14px;
+    font-size: 16px;
     
 }
 .shop-btn{
     margin-bottom: 80%;
+    
+}
+#shopnowBtn{
+    padding: 10px 50px;
+    background: crimson;
 }
 .line{
-    background: black;
+    background: crimson;
 }
 .title{
     font-size: 20px;
@@ -780,15 +789,28 @@ header {
 .card1-header{
     font-size: 11px;
 }
-.copyright{
-    font-size: 18px;
-    color: white;
-}
+
 .input-group input{
     width: 90%;
     margin: 30px;
 
 }
+.card-text{
+    font-size: 18px;
+}
+#exploreBtn, #kidsBtn{
+    background: crimson;
+    padding: 20px 40px;
+
+}
+#pricebtn{
+    
+    padding: 10px 20px;
+}
+.new{
+    font-size: 18px;
+}
+
 
 
 
@@ -812,7 +834,7 @@ header {
 
    } 
    .card-title{
-    font-size: 14px;
+    font-size: 16px;
    }
    .contact-btn{
     width: 9%;
@@ -824,7 +846,7 @@ header {
 }
 .copyright{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 .stars{
     display: flex;
